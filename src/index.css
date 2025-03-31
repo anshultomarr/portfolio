@@ -89,7 +89,7 @@ html, body{
     /* filter: grayscale(100); */
     mask-repeat: no-repeat;
     background-size: cover;
-    object-fit: contain;
+    object-fit: cover;
     background-position: center;
     /* overflow: hidden; */
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -471,6 +471,9 @@ img{
     .project-title-h1, .project-title-h2{
         height: 10vw;
         width: 70vw;
+    }
+    .hero{
+        background-position: 70%;
     }
     
 }
