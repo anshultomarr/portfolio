@@ -1,9 +1,8 @@
-import React, { useEffect, useState, useRef} from 'react';
+import { useEffect, useState, useRef} from 'react';
 import { useMenuClick } from './store/state';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import About from './About';
-import NavLinks from './components/NavLinks';
+
 
   
 
@@ -317,7 +316,7 @@ const Navbar = () => {
               handleAboutF();
               handleProjectsF();
               handleHeroM();
-            }}><img className='menu-logo-svg ' src='../public/images/aLogo1.svg'/></a>
+            }}><img className='menu-logo-svg ' src='./images/aLogo1.svg'/></a>
           </div>
 
           <p className='menu-open absolute right-0 top-0 inline-block text-[12px] sm:text-[clamp(10px,0.8vw,0.8vw)]' onClick={() => {
@@ -343,22 +342,22 @@ const Navbar = () => {
 
             <div id="menu-img4">
               {/* <img src="../public/images/tiltimg.webp" alt="" id='menu-img44'/> */}
-              <img className=' grayscale-100' src="../public/images/heropic3.jpg" alt="" id='menu-img44'/>
+              <img className=' grayscale-100' src="./images/heropic3.jpg" alt="" id='menu-img44'/>
             </div>
 
             <div id="menu-img3">
               {/* <img src="../public/images/tiltimg.webp" alt="" id='menu-img33'/> */}
-              <img className=' grayscale-100' src="../public/images/heropic3.jpg" alt="" id='menu-img33'/>
+              <img className=' grayscale-100' src="./images/heropic3.jpg" alt="" id='menu-img33'/>
             </div>
 
             <div id="menu-img2">
               {/* <img src="../public/images/tiltimg.webp" alt="" id='menu-img22'/> */}
-              <img className=' grayscale-100' src="../public/images/heropic3.jpg" alt="" id='menu-img22'/>
+              <img className=' grayscale-100' src="./images/heropic3.jpg" alt="" id='menu-img22'/>
             </div>
 
             <div id="menu-img1">
               {/* <img src="../public/images/tiltimg.webp" alt="" id='menu-img11'/> */}
-              <img className=' grayscale-100' src="../public/images/heropic3.jpg" alt="" id='menu-img11'/>
+              <img className=' grayscale-100' src="./images/heropic3.jpg" alt="" id='menu-img11'/>
             </div>
 
           </div>
@@ -373,7 +372,7 @@ const Navbar = () => {
                     // handleContactF();
                     handleMenuClose();
                     handleHeroM();
-                  }}><img className='menu-logo-svg ' src='../public/images/aLogo1.svg'/></div>
+                  }}><img className='menu-logo-svg ' src='./images/aLogo1.svg'/></div>
                 </div>
             </div>
 

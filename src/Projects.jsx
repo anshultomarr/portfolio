@@ -49,7 +49,7 @@ const Projects = () => {
 
           <div className='img-container  h-[100dvh] w-[100vw] sm:w-[40vw] sm:h-[40vw] flex justify-center items-center sm:justify-start sm:items-center'>
             <a target='_blank' href='https://modern-gaming-web.netlify.app/' className='project-img-w overflow-hidden h-[50vw] sm:max-h-[24vw] sm:h-[24vw] sm:w-[32vw] sm:max-w-[32vw]'>
-              <img className='project-img bg-blue-700' src="./public/images/zlogoicon.svg" alt="project image" />
+              <img className='project-img bg-blue-700' src="./images/zlogoicon.svg" alt="project image" />
 
               <div className='project-title-w '>
                 <div className='project-title text-[11vw] sm:text-[7vw] font-u8 uppercase'>
@@ -70,7 +70,7 @@ const Projects = () => {
           <div className='img-container relative h-[100dvh] w-[100vw] sm:w-[40vw] sm:h-[40vw] flex justify-center items-center sm:justify-end sm:static sm:items-center'>
             <a className='project-img-w  overflow-hidden w-[40vw] h-[70vw] sm:max-h-[35vw] sm:h-[35vw] sm:max-w-[22vw]'>
               
-              <img className='project-img nikeimg object-contain bg-amber-500' src="./public/images/nikelogo.svg" alt="project2" />
+              <img className='project-img nikeimg object-contain bg-amber-500' src="./images/nikelogo.svg" alt="project2" />
               
 
               <div className='project-title-w '>

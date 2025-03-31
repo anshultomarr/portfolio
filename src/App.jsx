@@ -1,12 +1,8 @@
-import React from 'react'
 import Hero from './Hero'
 import Navbar from './Navbar'
-import Menu from './Menu'
 import About from './About'
 import { useMenuClick } from './store/state'
-import Skills from './Skills'
 import Projects from './Projects'
-import Contact from './Contact'
 
 
 const App = () => {

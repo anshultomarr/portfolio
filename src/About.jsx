@@ -109,7 +109,7 @@ const About = () => {
         {/* sm:max-w-[150px] md:max-w-[250px] xl:max-w-[296px] */}
         <div  className=' tilt w-full sm:w-[50vw] sm:max-w-[296px] '>
           <div className=''>
-            <img className='about-img object-cover' src="../public/images/aboutpicc.jpg" alt="" />
+            <img className='about-img object-cover' src="./images/aboutpicc.jpg" alt="" />
             {/*<img className='about-img object-cover' src="../public/images/arock-about1.webp" alt="" />*/}
           </div>
         </div>
